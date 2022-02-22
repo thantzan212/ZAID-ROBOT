@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1866203936:
-         text += "\n\nOwner Of A Bot. Queen Of @Timesisnotwaiting. Bot Name Inspired From 'Lydia'."
+         text += "\n\nOwner Of A Bot. Queen Of @thantzin212. Bot Name Inspired From 'Lydia'."
          disaster_level_present = True
 
     try:
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/SUPERIOR_BOTS/136"),
+                                "support", url="https://t.me/+-Gsapl_ciLYwMGNl"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/SUPERIOR_BOTS/136")
+                                "channel", url="https://t.me/beginner_2015")
                         ],
                     ]
                 ),
@@ -371,9 +371,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/SUPERIOR_BOTS/136"),
+                                "support", url="https://t.me/+-Gsapl_ciLYwMGNl"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/SUPERIOR_BOTS/136")
+                                "channel", url="https://t.me/beginner_2015")
                         ],
                     ]
                 ),
@@ -447,7 +447,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By [ZAID](https://github.com/ITZ-ZAID)」</b>"
+    result += "\n<b>╘═━「 Powered By [ᶰ4 ᵛᵖᶰ ᵘˢᵉʳ ᵍʳᵒᵘᵖ](https://t.me/+-Gsapl_ciLYwMGNl)」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
@@ -569,7 +569,7 @@ When marked as AFK, any mentions will be replied to with a message stating that 
   - brb <reason>: Same as the afk command, but not a command. 
   
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/KennedyProject/44)
+ Come and see [N4usergroup](https://t.me/+-Gsapl_ciLYwMGNl)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
