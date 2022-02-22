@@ -82,27 +82,27 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😈 HI'm Zaid, An anime - Themed advanced telegram Group management with lots of features.
+🤗 HI'm Botညီလေး, An advanced telegram Group management with lots of features.
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
 ✪ Bot For help You Manage & Protect Your Groups.
-[➼](https://telegra.ph/file/be24bbabbe0ec30dff489.jpg) So What U Waiting For Add Me To Ur chat
+[➼](https://telegra.ph/file/8c278d46b852306e18231.jpg) So What U Waiting For Add Me To Ur chat
 ───────────────────────
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/Zaid2_Robot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/n4nd4_hippy_bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
      ],
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/Superior_Support"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/Superior_Bots"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/+-Gsapl_ciLYwMGNl"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/beginner_2015"),
     ], 
 
     [
@@ -114,10 +114,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/be24bbabbe0ec30dff489.jpg"
+EMI_IMG = "https://telegra.ph/file/8c278d46b852306e18231.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Timesisnotwaiting \
+ You can support the project by contacting @thantzin212 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Zaid robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Botညီလေး!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -364,7 +364,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm Zaid, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm Botညီလေး, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -386,7 +386,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/godfatherakkii"),
+                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/thantzin212"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -412,7 +412,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Zaid now ready to manage your group."
+            "\nCongragulations, Botညီလေး now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -429,13 +429,13 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*✨ support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Zaid.",
+            "\nJoin My Support Group/Channel for see or report a problem on Botညီလေး.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Superior_Suppport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Superior_bots"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/+-Gsapl_ciLYwMGNl"),
+                    InlineKeyboardButton(text="Updates", url="​https://t.me/beginner_2015"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -455,7 +455,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Zaid", url="t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Aman", url="t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="I'm Not Kelvin", url="t.me/thantzin212"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
