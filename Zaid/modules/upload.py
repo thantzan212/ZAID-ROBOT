@@ -83,7 +83,7 @@ async def tsh(event):
 
             str(time.time() - start)
             await orta.edit(
-                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by *AsunaRobot*"
+                f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nUploaded by *Botညီလေး*"
             )
         except Exception as e:
             traceback.print_exc()
@@ -159,7 +159,7 @@ async def up(event):
                 event.chat.id,
                 dosya,
                 force_document=True,
-                caption=f"Uploaded By *AsunaRobot*",
+                caption=f"Uploaded By *Botညီလေး*",
             )
         except Exception as e:
             traceback.print_exc()
